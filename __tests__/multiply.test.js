@@ -1,5 +1,5 @@
 const multi = require('../multiply');
 
-test('adds 2 * 2 to equal 5', () => {
-  expect(multi(2, 2)).toBe(5);
+test('adds 7 * 2 to equal 14', () => {
+  expect(multi(7, 2)).toBe(14);
 });
