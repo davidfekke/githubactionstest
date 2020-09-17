@@ -5,6 +5,6 @@ test('div 10 / 2 to equal 5', () => {
 });
 
 // Infinity
-// test('div 5 / 0 to equal 0', () => {
-//   expect(div(5, 0)).toBe(Infinity);
-// });
+test('div 5 / 0 to equal 0', () => {
+  expect(div(5, 0)).toBe(0);
+});
